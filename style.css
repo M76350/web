@@ -3,8 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+
 .homepage{
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   
   background-image: url(./jj.jpg);
@@ -16,35 +18,194 @@
   
 }
 
-.home-text{
+.homepage img{
+   margin-top: 403px;
+   margin-left: 40%;
+   width: 25vw;
+}
+
+.third_page{
+  display: flex;
+  padding: 10% 15%;
+  justify-content: space-between;
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./jj.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.third_one{
+  height: 60vh;
+  width: 700px;
+}
+
+.third_page img{
+  /* width: 200px;
+  height: 500px; */
+ margin-left: 20%;
+ margin-top: 15%;
+}
+
+.third_page h4{
   color: white;
-  position: absolute;
-  top: 50%;
-  right: 50%;
-  /* transform: translate(50%, 50%); */
+  
+  margin-left: 20%;
+  font-size: 1.5vw;
+}
+.formate{
+  /* position: absolute; */
+  left: 935px;
+  top: 280px;
+  width: 350px;
+  /* border: 2px solid red; */
+  height:350px;
+  /* height: 50vh; */
 
 }
-.p-text{
-  top: 55%;
-  left:47%;
-  width: 5vw;
 
- 
+.forget{
+
+  font-size: 1.2vw;
+  margin-left: 30%;
+
 }
+form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 320px;
+  box-sizing:border-box;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+.img2{
+  width: 200px;
+  
+}
+
+input[type="submit"] {
+  background-color: #111411;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 15px;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #1b231c;
+}
+
+.third_slide input[type="email"]{
+  width: 100%;
+  height: 3rem;
+  border-radius: 5px;
+
+}
+
+.third_page p{color: white;margin-left: 20%; opacity: 0.5;}
+
+/* form p{
+  width: 100%;
+  padding-right: 10px;
+  
+} */
+.third_slide .formate form p{
+  margin-left: 2px;
+}
+.third_slide .formate form a{
+  margin-left: 15%;
+
+
+}
+.third_part .formate form h4{
+  margin-left: 15%;
+  font-size: 1.1vw;
+}
+.third_part .formate form p{
+  margin-left: 15%;
+}
+
+
 @media (max-width:600px) {
+ 
   .homepage{
-    background-size: 100% 100%;
-  }
-  .home-text{
-    font-size: 4rem;
-    left: 25%;
+    background-image: url(./firstdiv.png);
+    background-size: cover;
 
   }
-  .p-text{
-    font-size: 1.5rem;
-    left: 45%;
-    top: 60%;
+  .homepage img{
+    width: 250px;
+    height: 120px;
+    /* margin-left: 15%; */ 
   }
+  .third_page{
+    background-image: url(./firstdiv.png);
+    background-size: cover;
+
+    text-align: center;
+    justify-content: center;
+    display: block;
+    height: 120vh;
+  }
+  
+  .third_one img{
+    width: 150px;
+    height: 150px;
+  }
+  .third_one{
+    margin-top: 20px;
+    width: 300px;
+    /* margin-left: 40%; */
+    height: 100px;
+  }
+  form{
+    width: 300px;
+    height: 300px;
+    margin-left: 20%;
+ 
+  }
+  
+  .third_form{
+    margin-top: 400px;
+  }
+  .third_form img{
+    margin-left: 10%;
+  }
+  .third_slide .formate form a{
+    font-size: 1.2rem;
+  }
+  .third_part .formate form a{
+    font-size: 1.2rem;
+  }
+  .third_form .formate form a{
+    font-size: 1.2rem;
+  }
+  .third_form .formate form h4{
+    font-size: 1.2rem;
+  }
+  .third_one h4{
+    font-size: 2.2rem;
+  }
+  
+  .third_one p{
+    font-size: 1.5rem;
+  }
+  
+  
+
 
 }
+
 
